@@ -1,0 +1,20 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/va-h/devcontainers-features/uv:1": {
+			"shell-autocompletion": true,
+			"version": "latest"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"charliermarsh.ruff",
+				"yzhang.markdown-all-in-one",
+				"tomoki1207.pdf"
+			]
+		}
+	}
+}
