@@ -8,18 +8,27 @@
 				"ms-toolsai.jupyter",
 				"charliermarsh.ruff",
 				"yzhang.markdown-all-in-one",
-				"tomoki1207.pdf",
 				"catppuccin.catppuccin-vsc",
-				"file-icons.file-icons",
+				"catppuccin.catppuccin-vsc-icons",
 				"ms-vsliveshare.vsliveshare",
 				"ms-toolsai.datawrangler"
 			],
 			"settings": {
 				"workbench.sideBar.location": "right",
+				"workbench.colorTheme": "Catppuccin Mocha",
+				"workbench.iconTheme": "catppuccin-mocha",
 				"github.copilot.enable": {
 					"*": false
 				},
-				"github.copilot.inlineSuggest.enable": false
+				"github.copilot.inlineSuggest.enable": false,
+				"editor.formatOnSave": true,
+				"[python]": {
+					"editor.defaultFormatter": "charliermarsh.ruff",
+					"editor.codeActionsOnSave": {
+						"source.organizeImports": "explicit"
+					}
+				},
+				"ruff.organizeImports": true
 			}
 		}
 	}
