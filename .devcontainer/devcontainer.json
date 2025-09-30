@@ -1,6 +1,6 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/python:3.12-bullseye",
-	"postCreateCommand": "pip install uv",
+	"postCreateCommand": "pip install uv && uv tool install ruff",
 	"customizations": {
 		"vscode": {
 			"extensions": [
